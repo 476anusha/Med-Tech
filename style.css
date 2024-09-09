@@ -7,8 +7,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{ background-image: url("/Gemini_Generated_Image_51hx9f51hx9f51hx.jpeg");
+
+body{ 
+    background-image: url("loginbg.jpeg");
     background-size: contain;
+    object-fit: contain;
     background-repeat: repeat;
     /* background-color: #c9d6ff;
     background: linear-gradient(to right, #e2e2e2, #c9d6ff); */
@@ -22,12 +25,13 @@ body{ background-image: url("/Gemini_Generated_Image_51hx9f51hx9f51hx.jpeg");
 .container{
     background-color: rgba(0, 0, 0, 0.);
     border-radius: 30px;
-    /* /box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); */
+    /box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
     overflow: hidden;
     width: 768px;
     max-width: 100%;
     min-height: 480px;
+    background-color: #fff;
 }
 
 .container p{

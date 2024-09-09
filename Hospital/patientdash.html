@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="patientdash.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="logo">
+                <img src="logo.png" width="60" height="60">
+            </div>
+            <div id="t1" class="text">
+                <b>Home</b>
+                <i class="ri-home-4-fill"></i>
+            </div>
+            <div id="t2" class="text">
+                <b>Languages</b>
+                <i class="ri-global-line"></i>
+            </div>
+            <div id="t3" class="text">
+                <p><b>Search</b></p>
+                <i class="ri-search-line"></i>
+            </div>
+            <div id="t4" class="text">
+                <p><b>Profile</b></p>
+                <i class="ri-user-line"></i>
+            </div>
+            <div id="t5" class="text">
+                <b>Frequently Asked Questions</b>
+                <i class="ri-question-line"></i>
+            </div>
+        </div>
+        <div id="fakeHeader"></div>
+        <div id="button">
+            <div id="chat">
+                <p><b>Need Help ? <i class="ri-question-answer-line"></i></b></p>
+            </div>
+        </div>
+        <div id="page1">
+            <div id="strip">
+                <p>Transforming Healthcare: Innovation, Compassion, and Care for All! - HealthGrid</p>
+            </div>
+            <div class="container">
+                <div class="wrapper">
+                    <div class="wrapper-holder">
+                        <div id="slider-img-1"></div>
+                        <div id="slider-img-2"></div>
+                        <div id="slider-img-3"></div>
+                        <div id="slider-img-4"></div>
+                    </div>
+                </div>
+                <div class="button holder">
+                    <a href="#slider-img-1" class="button"></a>
+                    <a href="#slider-img-2" class="button"></a>
+                    <a href="#slider-img-3" class="button"></a>
+                    <a href="#slider-img-4" class="button"></a>
+                </div>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="card1">
+                <img
+                    src="data:image/png;base64,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">
+                <h1><b>Government Schemes </b></h1>
+                <p>Government policies are strategic actions taken by governing body to address societal needs, promote
+                    public welfare & regulate various aspects of the society. Here's some policies from health sector
+                    for you to be beneficiary. </p>
+                <u>Learn more</u>
+            </div>
+
+            <div id="card2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjBTWwadREdObvhDjhWNtDpafyVQP9S4Cqfw&s">
+                <h1> View My Reports </h1>
+                <p>Click to access your medical history along side all your chronologically organised reports and your
+                    family members medical records. </p>
+                <u>Learn more</u>
+            </div>
+
+            <div id="card3">
+                <img
+                    src="data:image/png;base64,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">
+                <h1>Upload Reports</h1>
+                <p>Click here to manage your reports & medical records by updating or uploading your medical history.
+                </p>
+                <u>Learn more</u>
+            </div>
+        </div>
+        <div id="page3">
+            <div id="faq">
+                <h1>Frequently Asked Questions</h1>
+            </div>
+            <div class="Q">
+                <h1>Q. All the schemes mentioned in this portal are applicable in private hospitals too ?</h1>
+            </div>
+            <div class="A">
+                <p>A. Yes, all the schemes mentioned in this portal are applicable in private hospitals too.
+            </div>
+            <div class="Q">
+                <h1>Q. All the data uploaded on this portal is secure ?</h1>
+            </div>
+            <div class="A">
+                <p>A. Yes, the data is secure.</p>
+            </div>
+            <div class="Q">
+                <h1>Q. Is it necessary that hospital should be in the same city to upload data ?</h1>
+            </div>
+            <div class="A">
+                <p>A. No, It's not necessary. </p>
+            </div>
+        </div>
+        <div id="page4">
+            <div id="emergency">
+                <h1>Emergency Contact Numbers </h1>
+            </div>
+            <div class="econtact">
+                <p>1)The medical emergency contact number is : 112</p>
+            </div>
+            <div class="econtact">
+                <p>2)The eye donation & eye bank contact number is : 1919</p>
+            </div>
+            <div class="econtact">
+                <p>3)The COVID vaccine helpline number is : 1075</p>
+            </div>
+            <div class="econtact">
+                <p>4)The ambulance service number is : 108/102</p>
+            </div>
+            <div class="econtact">
+                <p>5)The AIDS helpline number is : 1097</p>
+            </div>
+            <div class="econtact">
+                <p>6)The blood bank helpline number is : 1910</p>
+            </div>
+
+            <div id="ty">
+                <p><i>Thank you for using our portal, kindly leave your valuable feedback.</i></p>
+                <p><i>For any query or suggestion, you may reach out to us at : bytebenders@gmail.com</i></p>
+                <p><i>We extend our best wishes for your health & well-being !!</i></p>
+                <p><i>Team- Byte Benders </i></p>
+
+                <div id="footer">
+                    <h2>ORGANISERS</h2>
+                    <pre> Developed by : Team Byte Benders</pre>
+                </div>
+                <div id="foot">
+                    <h2>FOLLOW US</h2>
+                    <div class="images">
+                        <i id="i1" class="ri-facebook-circle-fill"></i>
+                        <i id="i2" class="ri-youtube-fill"></i>
+                        <i id="i3" class="ri-linkedin-box-fill"></i>
+                        <i id="i4" class="ri-instagram-line"></i>
+                        <i id="i5" class="ri-twitter-x-fill"></i>
+                        <i id="i6" class="ri-linkedin-line"></i>
+                    </div>
+                    <div id="contact">
+                        <h2>Contact Us <br></h2>
+                        <p>
+                            <i id="i7" class="ri-phone-fill"> : +915379553418 or +915373418955 <br></i>
+                        </p>
+
+
+                        <p class="ri-mail-line"> : bytebenders@gmailcom </p>
+
+
+
+
+                    </div>
+                    <div id="copy">
+                        <p>
+                            <i class="ri-copyright-line"> HealthGrid Copyright @ 2024-25. All rights reserved</i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
